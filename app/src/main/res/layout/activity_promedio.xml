@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Promedio">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+
+            <TextView
+
+                android:id="@+id/txtV1"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:text="Materia 1"
+
+
+                />
+
+            <EditText
+                android:id="@+id/ediT1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp">
+
+        <TextView
+            android:id="@+id/txtV2"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:text="Materia 2"
+            />
+
+        <EditText
+            android:id="@+id/ediT2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp">
+
+        <TextView
+            android:id="@+id/txtV3"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:text="Materia 3"
+            />
+
+        <EditText
+            android:id="@+id/ediT3"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp">
+
+        <TextView
+            android:id="@+id/txtV4"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:text="Materia 4"
+            />
+
+        <EditText
+            android:id="@+id/ediT4"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp">
+
+        <TextView
+            android:id="@+id/txtV5"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:text="Materia 5"
+            />
+
+        <EditText
+            android:id="@+id/ediT5"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp">
+
+        <TextView
+            android:id="@+id/txtV6"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:text="Materia 6"
+            />
+
+        <EditText
+            android:id="@+id/ediT6"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/resultado"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:background="#3F51B5"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginRight="150dp"
+            android:onClick="Calcular"
+            android:text="Resultado" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp">
+
+        <TextView
+            android:id="@+id/txtVResult"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:text="Resultado"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:paddingLeft="50dp">
+
+        <Button
+            android:id="@+id/btnatras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp"
+            android:onClick="Anterior"
+            android:background="#3F51B5"
+            android:textColor="#FFFFFF"
+            android:text="Atras" />
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

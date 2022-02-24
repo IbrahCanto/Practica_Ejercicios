@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btntablas"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginRight="10dp"
+            android:onClick="Tablas_de_Multiplicar"
+            android:text="Tablas de Multiplicar" />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btpromedio"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginRight="10dp"
+            android:onClick="Promedio"
+            android:text="Promedio" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btbisiesto"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginRight="10dp"
+            android:onClick="Bisiesto"
+            android:text="Año Bisiesto" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+
+
+
+        <Button
+            android:id="@+id/btncancelar"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="650dp"
+            android:layout_marginLeft="140dp"
+            android:text="Salir" />
+
+    </LinearLayout>
+
+    </RelativeLayout>
